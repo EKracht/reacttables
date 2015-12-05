@@ -18,6 +18,7 @@ class App extends React.Component{
         <hr />
 
         <Table data={Datas[1]}></Table>
+        
       </div>
     );
   }
