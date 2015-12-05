@@ -8,7 +8,7 @@ class Table extends React.Component {
     let bodyRows = this.props.data;
     let headers = Object.keys(bodyRows[0]);
     return (
-      <table>
+      <table className="table">
         <TableHead data={bodyRows}></TableHead>
         <TableBody data={bodyRows}></TableBody>
       </table>
