@@ -1,0 +1,29 @@
+// ReactDOM.render(<Hello name="Ethan" />, document.getElementById('react'));
+
+// let pplToGreetContent = pplToGreet.map(person => <Hello name={person} />);
+// console.log(pplToGreetContent);
+
+// {pplToGreetContent}
+
+  //   ReactDOM.render(
+  // <div>
+  //   {pplToGreet.map((person, index) => <Hello key={index} name={person} />)}
+  // </div>,
+  // document.getElementById("react")
+  // );
+
+
+        // <ReasonsWhyWeLikeReact />
+        // <GoogleLogo />
+
+        // {(function() {return 1;})()}
+    // let name = "World";
+
+
+    <Hello {...data} />
+
+    
+let data = {
+  name: "Ethan",
+  greeting: "Hey"
+}
